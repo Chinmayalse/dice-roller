@@ -1,0 +1,62 @@
+body
+{
+    background-color: #393E46;
+    color:aliceblue;
+    font-family:'Lobster', cursive;
+}
+#heading
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 5rem;
+}
+.container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftside
+{
+    width:50%;
+    padding:3%;
+    margin-left: 13rem;
+}
+.rightside
+{
+    width:50%;
+    padding:3%;
+}
+.container img
+{
+    width:10rem;
+    height:10rem;
+}
+.leftside h3
+{
+    margin-left: 45px;
+    font-size: 2rem;
+}
+.rightside h3
+{
+    margin-left: 45px;
+    font-size: 2rem;
+}
+.button
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button
+{
+    border: 2px solid rgb(13, 13, 46);
+    border-radius: 10px;
+    width:8rem;
+    height:3rem;
+    font-weight: 700;
+    font-size: 20px;
+    cursor:pointer;
+}
